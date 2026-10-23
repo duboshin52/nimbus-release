@@ -1,10 +1,10 @@
 {
-  "versionCode": 115,
-  "versionName": "1.1.5",
-  "notes": "• Самообновление: новые версии приходят прямо в приложение\n• WireGuard / AmneziaWG: свои правила «Напрямую» и «Через VPN» (IP, подсети, geoip:, домены)\n• Журнал WireGuard / AmneziaWG в Настройках → Отладка: маршруты, рукопожатие, трафик\n• Подписки: убран дублирующийся «+»",
+  "versionCode": 116,
+  "versionName": "1.1.6",
+  "notes": "• Защита: если сервер WireGuard / AmneziaWG не ответил за 20 секунд, VPN отключается сам и интернет работает напрямую\n• При ошибке подключения туннель всегда снимается — телефон не остаётся без связи\n• Первое самообновление 🎉",
   "apks": {
-    "arm64-v8a": "Nimbus-VPN-1.1.5-arm64-v8a.apk",
-    "armeabi-v7a": "Nimbus-VPN-1.1.5-armeabi-v7a.apk",
-    "universal": "Nimbus-VPN-1.1.5-universal.apk"
+    "arm64-v8a": "Nimbus-VPN-1.1.6-arm64-v8a.apk",
+    "armeabi-v7a": "Nimbus-VPN-1.1.6-armeabi-v7a.apk",
+    "universal": "Nimbus-VPN-1.1.6-universal.apk"
   }
 }

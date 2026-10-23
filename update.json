@@ -1,10 +1,10 @@
 {
-  "versionCode": 117,
-  "versionName": "1.1.7",
-  "notes": "• Журнал WireGuard / AmneziaWG: какие приложения идут через VPN и внешний IP через туннель и напрямую\n• Сервер не ответил за 20 с — VPN отключается сам, интернет работает напрямую\n• При ошибке подключения туннель всегда снимается",
+  "versionCode": 118,
+  "versionName": "1.1.8",
+  "notes": "• Маршруты: предупреждение, если включено «через VPN только выбранные приложения» — свои правила действуют только на них\n• Журнал WireGuard / AmneziaWG: понятнее проверка внешнего IP\n• Ошибка проверки обновлений теперь показывается, а не «последняя версия»",
   "apks": {
-    "arm64-v8a": "Nimbus-VPN-1.1.7-arm64-v8a.apk",
-    "armeabi-v7a": "Nimbus-VPN-1.1.7-armeabi-v7a.apk",
-    "universal": "Nimbus-VPN-1.1.7-universal.apk"
+    "arm64-v8a": "Nimbus-VPN-1.1.8-arm64-v8a.apk",
+    "armeabi-v7a": "Nimbus-VPN-1.1.8-armeabi-v7a.apk",
+    "universal": "Nimbus-VPN-1.1.8-universal.apk"
   }
 }

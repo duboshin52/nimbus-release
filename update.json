@@ -1,10 +1,10 @@
 {
-  "versionCode": 118,
-  "versionName": "1.1.8",
-  "notes": "• Маршруты: предупреждение, если включено «через VPN только выбранные приложения» — свои правила действуют только на них\n• Журнал WireGuard / AmneziaWG: понятнее проверка внешнего IP\n• Ошибка проверки обновлений теперь показывается, а не «последняя версия»",
+  "versionCode": 119,
+  "versionName": "1.1.9",
+  "notes": "• WireGuard / AmneziaWG, «Обход LAN и российских»: теперь все ~12 тыс. российских сетей вместо 2000 (если телефон не примет столько — Nimbus сам уменьшит список)\n• Озон, WB, Авито, Яндекс, VK, Госуслуги, банки и ещё ~70 российских сервисов всегда идут напрямую\n• В журнале видно, сколько маршрутов приняла система",
   "apks": {
-    "arm64-v8a": "Nimbus-VPN-1.1.8-arm64-v8a.apk",
-    "armeabi-v7a": "Nimbus-VPN-1.1.8-armeabi-v7a.apk",
-    "universal": "Nimbus-VPN-1.1.8-universal.apk"
+    "arm64-v8a": "Nimbus-VPN-1.1.9-arm64-v8a.apk",
+    "armeabi-v7a": "Nimbus-VPN-1.1.9-armeabi-v7a.apk",
+    "universal": "Nimbus-VPN-1.1.9-universal.apk"
   }
 }

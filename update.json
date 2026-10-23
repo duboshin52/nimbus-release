@@ -1,10 +1,10 @@
 {
-  "versionCode": 116,
-  "versionName": "1.1.6",
-  "notes": "• Защита: если сервер WireGuard / AmneziaWG не ответил за 20 секунд, VPN отключается сам и интернет работает напрямую\n• При ошибке подключения туннель всегда снимается — телефон не остаётся без связи\n• Первое самообновление 🎉",
+  "versionCode": 117,
+  "versionName": "1.1.7",
+  "notes": "• Журнал WireGuard / AmneziaWG: какие приложения идут через VPN и внешний IP через туннель и напрямую\n• Сервер не ответил за 20 с — VPN отключается сам, интернет работает напрямую\n• При ошибке подключения туннель всегда снимается",
   "apks": {
-    "arm64-v8a": "Nimbus-VPN-1.1.6-arm64-v8a.apk",
-    "armeabi-v7a": "Nimbus-VPN-1.1.6-armeabi-v7a.apk",
-    "universal": "Nimbus-VPN-1.1.6-universal.apk"
+    "arm64-v8a": "Nimbus-VPN-1.1.7-arm64-v8a.apk",
+    "armeabi-v7a": "Nimbus-VPN-1.1.7-armeabi-v7a.apk",
+    "universal": "Nimbus-VPN-1.1.7-universal.apk"
   }
 }

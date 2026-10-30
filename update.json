@@ -1,10 +1,10 @@
 {
-  "versionCode": 122,
-  "versionName": "1.2.2",
-  "notes": "• Discord всегда через VPN: домены, голосовые серверы и само приложение — для Xray, WireGuard и AmneziaWG, даже в режиме обхода и «только выбранные приложения» (Маршруты → Фильтры, можно выключить)",
+  "versionCode": 130,
+  "versionName": "1.3.0",
+  "notes": "• Новое: «Сервисы через VPN» (Маршруты → 🌐) — 33 заблокированных в России сервиса: YouTube, Instagram, Facebook, X, TikTok, Telegram, WhatsApp, Discord, ChatGPT, Claude, Gemini, Spotify, Netflix, Roblox, Brawl Stars и др.\n• Всё включено сразу, можно выключать группами и по одному, есть поиск\n• Работает в Xray и WireGuard/AmneziaWG, в режиме обхода РФ и с «только выбранными приложениями» — их приложения добавляются сами\n• Список обновляется сам, без новой версии приложения",
   "apks": {
-    "arm64-v8a": "Nimbus-VPN-1.2.2-arm64-v8a.apk",
-    "armeabi-v7a": "Nimbus-VPN-1.2.2-armeabi-v7a.apk",
-    "universal": "Nimbus-VPN-1.2.2-universal.apk"
+    "arm64-v8a": "Nimbus-VPN-1.3.0-arm64-v8a.apk",
+    "armeabi-v7a": "Nimbus-VPN-1.3.0-armeabi-v7a.apk",
+    "universal": "Nimbus-VPN-1.3.0-universal.apk"
   }
 }

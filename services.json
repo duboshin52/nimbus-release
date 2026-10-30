@@ -1,0 +1,1068 @@
+{
+ "version": 1,
+ "updated": "2026-10-30",
+ "groups": [
+  {
+   "id": "social",
+   "title": "Соцсети и видео",
+   "emoji": "📺"
+  },
+  {
+   "id": "messengers",
+   "title": "Мессенджеры и звонки",
+   "emoji": "💬"
+  },
+  {
+   "id": "ai",
+   "title": "ИИ-сервисы",
+   "emoji": "🤖"
+  },
+  {
+   "id": "media",
+   "title": "Музыка, кино и прочее",
+   "emoji": "🎬"
+  },
+  {
+   "id": "games",
+   "title": "Мобильные игры",
+   "emoji": "🎮"
+  }
+ ],
+ "services": [
+  {
+   "id": "youtube",
+   "name": "YouTube",
+   "group": "social",
+   "note": "Для WireGuard/AmneziaWG через VPN идут все сети Google — видео YouTube приходят с них",
+   "domains": [
+    "youtube.com",
+    "youtu.be",
+    "googlevideo.com",
+    "ytimg.com",
+    "ggpht.com",
+    "youtube-nocookie.com",
+    "youtubekids.com",
+    "youtubei.googleapis.com",
+    "youtube.googleapis.com"
+   ],
+   "geosite": [
+    "youtube"
+   ],
+   "ips": [
+    "64.233.160.0/19",
+    "66.102.0.0/20",
+    "66.249.64.0/19",
+    "72.14.192.0/18",
+    "74.125.0.0/16",
+    "108.177.0.0/17",
+    "142.250.0.0/15",
+    "172.217.0.0/16",
+    "172.253.0.0/16",
+    "173.194.0.0/16",
+    "209.85.128.0/17",
+    "216.58.192.0/19",
+    "216.239.32.0/19"
+   ],
+   "hosts": [
+    "www.youtube.com",
+    "m.youtube.com",
+    "youtubei.googleapis.com",
+    "i.ytimg.com",
+    "yt3.ggpht.com",
+    "redirector.googlevideo.com",
+    "music.youtube.com"
+   ],
+   "android": [
+    "com.google.android.youtube",
+    "com.google.android.apps.youtube.music",
+    "com.google.android.apps.youtube.kids",
+    "com.google.android.apps.youtube.creator",
+    "app.revanced.android.youtube",
+    "app.revanced.android.apps.youtube.music",
+    "anddea.youtube",
+    "com.vanced.android.youtube"
+   ],
+   "windows": []
+  },
+  {
+   "id": "instagram",
+   "name": "Instagram",
+   "group": "social",
+   "note": "",
+   "domains": [
+    "instagram.com",
+    "cdninstagram.com",
+    "ig.me",
+    "instagr.am"
+   ],
+   "geosite": [
+    "instagram"
+   ],
+   "ips": [
+    "31.13.24.0/21",
+    "31.13.64.0/18",
+    "57.144.0.0/14",
+    "66.220.144.0/20",
+    "69.63.176.0/20",
+    "69.171.224.0/19",
+    "102.132.96.0/20",
+    "129.134.0.0/16",
+    "157.240.0.0/16",
+    "163.70.128.0/17",
+    "163.77.128.0/17",
+    "173.252.64.0/18",
+    "179.60.192.0/22",
+    "185.60.216.0/22",
+    "185.89.216.0/22",
+    "204.15.20.0/22"
+   ],
+   "hosts": [
+    "www.instagram.com",
+    "i.instagram.com",
+    "graph.instagram.com",
+    "scontent.cdninstagram.com"
+   ],
+   "android": [
+    "com.instagram.android",
+    "com.instagram.lite"
+   ],
+   "windows": []
+  },
+  {
+   "id": "facebook",
+   "name": "Facebook и Messenger",
+   "group": "social",
+   "note": "",
+   "domains": [
+    "facebook.com",
+    "fb.com",
+    "fbcdn.net",
+    "fbsbx.com",
+    "facebook.net",
+    "messenger.com",
+    "m.me",
+    "fb.me",
+    "meta.com"
+   ],
+   "geosite": [
+    "facebook"
+   ],
+   "ips": [
+    "31.13.24.0/21",
+    "31.13.64.0/18",
+    "57.144.0.0/14",
+    "66.220.144.0/20",
+    "69.63.176.0/20",
+    "69.171.224.0/19",
+    "102.132.96.0/20",
+    "129.134.0.0/16",
+    "157.240.0.0/16",
+    "163.70.128.0/17",
+    "163.77.128.0/17",
+    "173.252.64.0/18",
+    "179.60.192.0/22",
+    "185.60.216.0/22",
+    "185.89.216.0/22",
+    "204.15.20.0/22"
+   ],
+   "hosts": [
+    "www.facebook.com",
+    "m.facebook.com",
+    "graph.facebook.com",
+    "edge-mqtt.facebook.com",
+    "static.xx.fbcdn.net"
+   ],
+   "android": [
+    "com.facebook.katana",
+    "com.facebook.orca",
+    "com.facebook.lite",
+    "com.facebook.mlite"
+   ],
+   "windows": [
+    "Messenger.exe"
+   ]
+  },
+  {
+   "id": "threads",
+   "name": "Threads",
+   "group": "social",
+   "note": "",
+   "domains": [
+    "threads.net",
+    "threads.com"
+   ],
+   "geosite": [],
+   "ips": [
+    "31.13.24.0/21",
+    "31.13.64.0/18",
+    "57.144.0.0/14",
+    "66.220.144.0/20",
+    "69.63.176.0/20",
+    "69.171.224.0/19",
+    "102.132.96.0/20",
+    "129.134.0.0/16",
+    "157.240.0.0/16",
+    "163.70.128.0/17",
+    "163.77.128.0/17",
+    "173.252.64.0/18",
+    "179.60.192.0/22",
+    "185.60.216.0/22",
+    "185.89.216.0/22",
+    "204.15.20.0/22"
+   ],
+   "hosts": [
+    "www.threads.net",
+    "www.threads.com"
+   ],
+   "android": [
+    "com.instagram.barcelona"
+   ],
+   "windows": []
+  },
+  {
+   "id": "twitter",
+   "name": "X (Twitter)",
+   "group": "social",
+   "note": "",
+   "domains": [
+    "x.com",
+    "twitter.com",
+    "twimg.com",
+    "t.co",
+    "x.ai"
+   ],
+   "geosite": [
+    "twitter"
+   ],
+   "ips": [
+    "104.244.40.0/21",
+    "192.133.76.0/22",
+    "199.16.156.0/22",
+    "199.59.148.0/22",
+    "199.96.56.0/21"
+   ],
+   "hosts": [
+    "x.com",
+    "api.x.com",
+    "twitter.com",
+    "api.twitter.com",
+    "pbs.twimg.com",
+    "video.twimg.com",
+    "abs.twimg.com"
+   ],
+   "android": [
+    "com.twitter.android"
+   ],
+   "windows": []
+  },
+  {
+   "id": "tiktok",
+   "name": "TikTok",
+   "group": "social",
+   "note": "В России TikTok показывает только старые видео — через VPN работает полностью",
+   "domains": [
+    "tiktok.com",
+    "tiktokv.com",
+    "tiktokcdn.com",
+    "tiktokcdn-us.com",
+    "byteoversea.com",
+    "ibytedtos.com",
+    "muscdn.com",
+    "ttwstatic.com",
+    "tiktokw.us"
+   ],
+   "geosite": [
+    "tiktok"
+   ],
+   "ips": [],
+   "hosts": [
+    "www.tiktok.com",
+    "m.tiktok.com",
+    "api16-normal-c-useast1a.tiktokv.com",
+    "v16-webapp.tiktok.com"
+   ],
+   "android": [
+    "com.zhiliaoapp.musically",
+    "com.ss.android.ugc.trill"
+   ],
+   "windows": []
+  },
+  {
+   "id": "twitch",
+   "name": "Twitch",
+   "group": "social",
+   "note": "",
+   "domains": [
+    "twitch.tv",
+    "ttvnw.net",
+    "jtvnw.net",
+    "twitchcdn.net",
+    "twitchsvc.net",
+    "ext-twitch.tv",
+    "live-video.net"
+   ],
+   "geosite": [
+    "twitch"
+   ],
+   "ips": [],
+   "hosts": [
+    "www.twitch.tv",
+    "gql.twitch.tv",
+    "usher.ttvnw.net",
+    "static-cdn.jtvnw.net"
+   ],
+   "android": [
+    "tv.twitch.android.app"
+   ],
+   "windows": []
+  },
+  {
+   "id": "linkedin",
+   "name": "LinkedIn",
+   "group": "social",
+   "note": "",
+   "domains": [
+    "linkedin.com",
+    "licdn.com",
+    "lnkd.in"
+   ],
+   "geosite": [
+    "linkedin"
+   ],
+   "ips": [],
+   "hosts": [
+    "www.linkedin.com",
+    "static.licdn.com",
+    "media.licdn.com"
+   ],
+   "android": [
+    "com.linkedin.android"
+   ],
+   "windows": []
+  },
+  {
+   "id": "telegram",
+   "name": "Telegram",
+   "group": "messengers",
+   "note": "Звонки, видео и медиа, которые в России замедляют",
+   "domains": [
+    "telegram.org",
+    "t.me",
+    "telegram.me",
+    "telegra.ph",
+    "telesco.pe",
+    "tdesktop.com",
+    "cdn-telegram.org",
+    "telegram-cdn.org"
+   ],
+   "geosite": [
+    "telegram"
+   ],
+   "ips": [
+    "91.105.192.0/23",
+    "91.108.4.0/22",
+    "91.108.8.0/22",
+    "91.108.12.0/22",
+    "91.108.16.0/22",
+    "91.108.20.0/22",
+    "91.108.56.0/22",
+    "95.161.64.0/20",
+    "149.154.160.0/20",
+    "185.76.151.0/24"
+   ],
+   "hosts": [
+    "web.telegram.org",
+    "t.me",
+    "telegram.org"
+   ],
+   "android": [
+    "org.telegram.messenger",
+    "org.telegram.messenger.web",
+    "org.thunderdog.challegram",
+    "org.telegram.plus",
+    "com.radolyn.ayugram",
+    "tw.nekomimi.nekogram"
+   ],
+   "windows": [
+    "Telegram.exe",
+    "AyuGram.exe"
+   ]
+  },
+  {
+   "id": "whatsapp",
+   "name": "WhatsApp",
+   "group": "messengers",
+   "note": "Звонки в России заблокированы",
+   "domains": [
+    "whatsapp.com",
+    "whatsapp.net",
+    "wa.me",
+    "whatsapp.biz"
+   ],
+   "geosite": [
+    "whatsapp"
+   ],
+   "ips": [
+    "31.13.24.0/21",
+    "31.13.64.0/18",
+    "57.144.0.0/14",
+    "66.220.144.0/20",
+    "69.63.176.0/20",
+    "69.171.224.0/19",
+    "102.132.96.0/20",
+    "129.134.0.0/16",
+    "157.240.0.0/16",
+    "163.70.128.0/17",
+    "163.77.128.0/17",
+    "173.252.64.0/18",
+    "179.60.192.0/22",
+    "185.60.216.0/22",
+    "185.89.216.0/22",
+    "204.15.20.0/22"
+   ],
+   "hosts": [
+    "web.whatsapp.com",
+    "g.whatsapp.net",
+    "mmg.whatsapp.net",
+    "static.whatsapp.net"
+   ],
+   "android": [
+    "com.whatsapp",
+    "com.whatsapp.w4b"
+   ],
+   "windows": [
+    "WhatsApp.exe"
+   ]
+  },
+  {
+   "id": "signal",
+   "name": "Signal",
+   "group": "messengers",
+   "note": "",
+   "domains": [
+    "signal.org",
+    "signal.art",
+    "signal.me",
+    "whispersystems.org",
+    "signal.group"
+   ],
+   "geosite": [
+    "signal"
+   ],
+   "ips": [],
+   "hosts": [
+    "chat.signal.org",
+    "storage.signal.org",
+    "cdn.signal.org",
+    "cdn2.signal.org",
+    "sfu.voip.signal.org"
+   ],
+   "android": [
+    "org.thoughtcrime.securesms"
+   ],
+   "windows": [
+    "Signal.exe"
+   ]
+  },
+  {
+   "id": "viber",
+   "name": "Viber",
+   "group": "messengers",
+   "note": "",
+   "domains": [
+    "viber.com"
+   ],
+   "geosite": [
+    "viber"
+   ],
+   "ips": [],
+   "hosts": [
+    "www.viber.com",
+    "dl-media.viber.com",
+    "content.cdn.viber.com"
+   ],
+   "android": [
+    "com.viber.voip"
+   ],
+   "windows": [
+    "Viber.exe"
+   ]
+  },
+  {
+   "id": "discord",
+   "name": "Discord",
+   "group": "messengers",
+   "note": "",
+   "domains": [
+    "discord.com",
+    "discord.gg",
+    "discordapp.com",
+    "discordapp.net",
+    "discord.media",
+    "discordcdn.com",
+    "discord.dev",
+    "discord.new",
+    "discord.gift",
+    "discord.co",
+    "discordstatus.com",
+    "dis.gd",
+    "discord.app"
+   ],
+   "geosite": [
+    "discord"
+   ],
+   "ips": [
+    "66.22.192.0/18",
+    "162.159.128.0/20",
+    "162.159.136.0/21"
+   ],
+   "hosts": [
+    "discord.com",
+    "gateway.discord.gg",
+    "discord.gg",
+    "cdn.discordapp.com",
+    "media.discordapp.net",
+    "images-ext-1.discordapp.net",
+    "discordapp.com",
+    "status.discord.com",
+    "latency.discord.media",
+    "router.discordapp.net",
+    "discord-attachments-uploads-prd.storage.googleapis.com",
+    "dl.discordapp.net"
+   ],
+   "android": [
+    "com.discord"
+   ],
+   "windows": [
+    "Discord.exe",
+    "DiscordPTB.exe",
+    "DiscordCanary.exe"
+   ]
+  },
+  {
+   "id": "chatgpt",
+   "name": "ChatGPT / OpenAI",
+   "group": "ai",
+   "note": "Сам не пускает пользователей из России",
+   "domains": [
+    "openai.com",
+    "chatgpt.com",
+    "oaistatic.com",
+    "oaiusercontent.com",
+    "chat.com",
+    "sora.com"
+   ],
+   "geosite": [
+    "openai"
+   ],
+   "ips": [],
+   "hosts": [
+    "chatgpt.com",
+    "ab.chatgpt.com",
+    "cdn.oaistatic.com",
+    "auth.openai.com",
+    "api.openai.com",
+    "files.oaiusercontent.com",
+    "sora.com"
+   ],
+   "android": [
+    "com.openai.chatgpt"
+   ],
+   "windows": [
+    "ChatGPT.exe"
+   ]
+  },
+  {
+   "id": "claude",
+   "name": "Claude",
+   "group": "ai",
+   "note": "Сам не пускает пользователей из России",
+   "domains": [
+    "claude.ai",
+    "claude.com",
+    "anthropic.com",
+    "claudeusercontent.com"
+   ],
+   "geosite": [
+    "anthropic"
+   ],
+   "ips": [],
+   "hosts": [
+    "claude.ai",
+    "api.anthropic.com",
+    "www.anthropic.com",
+    "claude.com"
+   ],
+   "android": [
+    "com.anthropic.claude"
+   ],
+   "windows": [
+    "Claude.exe"
+   ]
+  },
+  {
+   "id": "gemini",
+   "name": "Gemini",
+   "group": "ai",
+   "note": "Сам не пускает пользователей из России",
+   "domains": [
+    "gemini.google.com",
+    "aistudio.google.com",
+    "generativelanguage.googleapis.com",
+    "bard.google.com",
+    "notebooklm.google.com",
+    "notebooklm.google",
+    "alkalimakersuite-pa.clients6.google.com",
+    "proactivebackend-pa.googleapis.com"
+   ],
+   "geosite": [
+    "google-gemini"
+   ],
+   "ips": [],
+   "hosts": [
+    "gemini.google.com",
+    "aistudio.google.com",
+    "generativelanguage.googleapis.com",
+    "notebooklm.google.com"
+   ],
+   "android": [
+    "com.google.android.apps.bard"
+   ],
+   "windows": []
+  },
+  {
+   "id": "copilot",
+   "name": "Microsoft Copilot",
+   "group": "ai",
+   "note": "Сам не пускает пользователей из России",
+   "domains": [
+    "copilot.microsoft.com",
+    "copilot.cloud.microsoft",
+    "sydney.bing.com",
+    "edgeservices.bing.com",
+    "githubcopilot.com"
+   ],
+   "geosite": [],
+   "ips": [],
+   "hosts": [
+    "copilot.microsoft.com",
+    "sydney.bing.com",
+    "api.githubcopilot.com"
+   ],
+   "android": [
+    "com.microsoft.copilot"
+   ],
+   "windows": []
+  },
+  {
+   "id": "perplexity",
+   "name": "Perplexity",
+   "group": "ai",
+   "note": "",
+   "domains": [
+    "perplexity.ai",
+    "pplx.ai"
+   ],
+   "geosite": [
+    "perplexity"
+   ],
+   "ips": [],
+   "hosts": [
+    "www.perplexity.ai",
+    "perplexity.ai"
+   ],
+   "android": [
+    "ai.perplexity.app.android"
+   ],
+   "windows": []
+  },
+  {
+   "id": "grok",
+   "name": "Grok",
+   "group": "ai",
+   "note": "",
+   "domains": [
+    "grok.com",
+    "x.ai"
+   ],
+   "geosite": [
+    "xai"
+   ],
+   "ips": [],
+   "hosts": [
+    "grok.com",
+    "accounts.x.ai"
+   ],
+   "android": [
+    "ai.x.grok"
+   ],
+   "windows": []
+  },
+  {
+   "id": "midjourney",
+   "name": "Midjourney",
+   "group": "ai",
+   "note": "",
+   "domains": [
+    "midjourney.com"
+   ],
+   "geosite": [],
+   "ips": [],
+   "hosts": [
+    "www.midjourney.com",
+    "cdn.midjourney.com"
+   ],
+   "android": [],
+   "windows": []
+  },
+  {
+   "id": "spotify",
+   "name": "Spotify",
+   "group": "media",
+   "note": "Ушёл из России, без VPN не работает",
+   "domains": [
+    "spotify.com",
+    "scdn.co",
+    "spotifycdn.com",
+    "spoti.fi",
+    "pscdn.co",
+    "spotify.link",
+    "spotifycdn.net"
+   ],
+   "geosite": [
+    "spotify"
+   ],
+   "ips": [],
+   "hosts": [
+    "open.spotify.com",
+    "apresolve.spotify.com",
+    "spclient.wg.spotify.com",
+    "i.scdn.co",
+    "audio-ak.spotifycdn.com"
+   ],
+   "android": [
+    "com.spotify.music"
+   ],
+   "windows": [
+    "Spotify.exe"
+   ]
+  },
+  {
+   "id": "soundcloud",
+   "name": "SoundCloud",
+   "group": "media",
+   "note": "",
+   "domains": [
+    "soundcloud.com",
+    "sndcdn.com",
+    "soundcloud.cloud"
+   ],
+   "geosite": [
+    "soundcloud"
+   ],
+   "ips": [],
+   "hosts": [
+    "soundcloud.com",
+    "api-v2.soundcloud.com",
+    "cf-media.sndcdn.com"
+   ],
+   "android": [
+    "com.soundcloud.android"
+   ],
+   "windows": []
+  },
+  {
+   "id": "netflix",
+   "name": "Netflix",
+   "group": "media",
+   "note": "",
+   "domains": [
+    "netflix.com",
+    "nflxvideo.net",
+    "nflximg.net",
+    "nflxext.com",
+    "nflxso.net",
+    "netflix.net"
+   ],
+   "geosite": [
+    "netflix"
+   ],
+   "ips": [],
+   "hosts": [
+    "www.netflix.com",
+    "api-global.netflix.com",
+    "assets.nflxext.com"
+   ],
+   "android": [
+    "com.netflix.mediaclient"
+   ],
+   "windows": []
+  },
+  {
+   "id": "patreon",
+   "name": "Patreon",
+   "group": "media",
+   "note": "",
+   "domains": [
+    "patreon.com",
+    "patreonusercontent.com"
+   ],
+   "geosite": [
+    "patreon"
+   ],
+   "ips": [],
+   "hosts": [
+    "www.patreon.com",
+    "c10.patreonusercontent.com"
+   ],
+   "android": [
+    "com.patreon.android"
+   ],
+   "windows": []
+  },
+  {
+   "id": "medium",
+   "name": "Medium",
+   "group": "media",
+   "note": "",
+   "domains": [
+    "medium.com"
+   ],
+   "geosite": [
+    "medium"
+   ],
+   "ips": [],
+   "hosts": [
+    "medium.com",
+    "miro.medium.com"
+   ],
+   "android": [
+    "com.medium.reader"
+   ],
+   "windows": []
+  },
+  {
+   "id": "proton",
+   "name": "Proton (Mail, Drive)",
+   "group": "media",
+   "note": "",
+   "domains": [
+    "proton.me",
+    "protonmail.com",
+    "protonmail.ch",
+    "pm.me",
+    "protonvpn.com"
+   ],
+   "geosite": [],
+   "ips": [],
+   "hosts": [
+    "mail.proton.me",
+    "account.proton.me",
+    "drive.proton.me"
+   ],
+   "android": [
+    "ch.protonmail.android",
+    "me.proton.android.drive"
+   ],
+   "windows": []
+  },
+  {
+   "id": "notion",
+   "name": "Notion",
+   "group": "media",
+   "note": "Отключил пользователей из России",
+   "domains": [
+    "notion.so",
+    "notion.site",
+    "notion.com",
+    "notion-static.com"
+   ],
+   "geosite": [
+    "notion"
+   ],
+   "ips": [],
+   "hosts": [
+    "www.notion.so",
+    "api.notion.com",
+    "msgstore.www.notion.so"
+   ],
+   "android": [
+    "notion.id"
+   ],
+   "windows": [
+    "Notion.exe"
+   ]
+  },
+  {
+   "id": "roblox",
+   "name": "Roblox",
+   "group": "games",
+   "note": "Заблокирован в России",
+   "domains": [
+    "roblox.com",
+    "rbxcdn.com",
+    "rbx.com",
+    "robloxlabs.com",
+    "roblox.qq.com"
+   ],
+   "geosite": [
+    "roblox"
+   ],
+   "ips": [],
+   "hosts": [
+    "www.roblox.com",
+    "apis.roblox.com",
+    "auth.roblox.com",
+    "gamejoin.roblox.com",
+    "assetdelivery.roblox.com",
+    "c0.rbxcdn.com"
+   ],
+   "android": [
+    "com.roblox.client"
+   ],
+   "windows": [
+    "RobloxPlayerBeta.exe"
+   ]
+  },
+  {
+   "id": "supercell",
+   "name": "Supercell (Brawl Stars, Clash)",
+   "group": "games",
+   "note": "Игра через VPN — пинг выше",
+   "domains": [
+    "supercell.com",
+    "supercell.net",
+    "clashofclans.com",
+    "brawlstars.com",
+    "clashroyale.com",
+    "brawlstarsgame.com",
+    "clashroyaleapp.com",
+    "supercellid.com"
+   ],
+   "geosite": [
+    "supercell"
+   ],
+   "ips": [],
+   "hosts": [
+    "game.brawlstarsgame.com",
+    "gamea.clashofclans.com",
+    "game.clashroyaleapp.com",
+    "id.supercell.com",
+    "store.supercell.com"
+   ],
+   "android": [
+    "com.supercell.brawlstars",
+    "com.supercell.clashofclans",
+    "com.supercell.clashroyale",
+    "com.supercell.squad",
+    "com.supercell.hayday",
+    "com.supercell.boombeach"
+   ],
+   "windows": []
+  },
+  {
+   "id": "pokemongo",
+   "name": "Pokémon GO",
+   "group": "games",
+   "note": "Niantic закрыла игру для России",
+   "domains": [
+    "nianticlabs.com",
+    "pokemongolive.com",
+    "nianticspatial.com",
+    "pokemon.com"
+   ],
+   "geosite": [],
+   "ips": [],
+   "hosts": [
+    "pgorelease.nianticlabs.com",
+    "sso.pokemon.com",
+    "pokemongolive.com"
+   ],
+   "android": [
+    "com.nianticlabs.pokemongo"
+   ],
+   "windows": []
+  },
+  {
+   "id": "codm",
+   "name": "Call of Duty Mobile",
+   "group": "games",
+   "note": "Игра через VPN — пинг выше",
+   "domains": [
+    "callofduty.com",
+    "activision.com",
+    "demonware.net",
+    "codm.activision.com",
+    "activisionblizzard.com"
+   ],
+   "geosite": [
+    "activision"
+   ],
+   "ips": [],
+   "hosts": [
+    "profile.callofduty.com",
+    "s.activision.com",
+    "codm.activision.com"
+   ],
+   "android": [
+    "com.activision.callofduty.shooter"
+   ],
+   "windows": []
+  },
+  {
+   "id": "pubgm",
+   "name": "PUBG Mobile",
+   "group": "games",
+   "note": "Игра через VPN — пинг выше",
+   "domains": [
+    "pubgmobile.com",
+    "proximabeta.com",
+    "igamecj.com",
+    "gcloudsdk.com",
+    "pubg.com"
+   ],
+   "geosite": [
+    "pubg"
+   ],
+   "ips": [],
+   "hosts": [
+    "www.pubgmobile.com",
+    "down.pubgmobile.com",
+    "cloudctrl.gcloud.qq.com"
+   ],
+   "android": [
+    "com.tencent.ig"
+   ],
+   "windows": []
+  },
+  {
+   "id": "minecraft",
+   "name": "Minecraft",
+   "group": "games",
+   "note": "Mojang закрыла покупки и Realms для России",
+   "domains": [
+    "minecraft.net",
+    "mojang.com",
+    "minecraftservices.com",
+    "minecraft-services.net",
+    "playfabapi.com"
+   ],
+   "geosite": [
+    "mojang"
+   ],
+   "ips": [],
+   "hosts": [
+    "api.minecraftservices.com",
+    "authserver.mojang.com",
+    "session.minecraft.net",
+    "pocket.realms.minecraft.net"
+   ],
+   "android": [
+    "com.mojang.minecraftpe"
+   ],
+   "windows": [
+    "Minecraft.Windows.exe"
+   ]
+  }
+ ]
+}

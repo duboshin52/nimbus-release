@@ -1,11 +1,11 @@
 {
-  "versionCode": 143,
-  "versionName": "1.4.3",
-  "notes": "• Исправлен запуск приложения из плитки быстрых настроек: теперь открывается главный экран вместо сохранённой страницы «О приложении»",
+  "versionCode": 144,
+  "versionName": "1.4.4",
+  "notes": "• Долгое нажатие на плитку быстрых настроек теперь открывает главный экран Nimbus вместо системного «О приложении»\n• При запуске из плитки сбрасывается открытая ранее страница настроек",
   "apks": {
-    "arm64-v8a": "Nimbus-VPN-1.4.3-arm64-v8a.apk",
-    "armeabi-v7a": "Nimbus-VPN-1.4.3-armeabi-v7a.apk",
-    "universal": "Nimbus-VPN-1.4.3-universal.apk"
+    "arm64-v8a": "Nimbus-VPN-1.4.4-arm64-v8a.apk",
+    "armeabi-v7a": "Nimbus-VPN-1.4.4-armeabi-v7a.apk",
+    "universal": "Nimbus-VPN-1.4.4-universal.apk"
   },
   "windows": {
     "versionName": "1.4.2",

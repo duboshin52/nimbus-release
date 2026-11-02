@@ -1,15 +1,15 @@
 {
-  "versionCode": 141,
-  "versionName": "1.4.1",
-  "notes": "• Серверы РФ-CDN и XHTTP-Reality снова в списке — скрываются только 2 ноды, идущие через Cloudflare (определяем автоматически по адресу)\n• Вернуть скрытые можно в Настройки → Серверы через Cloudflare",
+  "versionCode": 142,
+  "versionName": "1.4.2",
+  "notes": "• В списке снова все серверы из подписки — нестабильные ноды через Cloudflare убраны на стороне сервера, скрытие в приложении больше не нужно\n• Автопереключение на лучший живой сервер работает как раньше",
   "apks": {
-    "arm64-v8a": "Nimbus-VPN-1.4.1-arm64-v8a.apk",
-    "armeabi-v7a": "Nimbus-VPN-1.4.1-armeabi-v7a.apk",
-    "universal": "Nimbus-VPN-1.4.1-universal.apk"
+    "arm64-v8a": "Nimbus-VPN-1.4.2-arm64-v8a.apk",
+    "armeabi-v7a": "Nimbus-VPN-1.4.2-armeabi-v7a.apk",
+    "universal": "Nimbus-VPN-1.4.2-universal.apk"
   },
   "windows": {
-    "versionName": "1.4.1",
-    "file": "Nimbus.VPN-1.4.1.exe",
-    "notes": "• Серверы РФ-CDN и XHTTP-Reality снова в списке — скрываются только 2 ноды через Cloudflare\n• Автоопределение Cloudflare-нод по адресу сервера"
+    "versionName": "1.4.2",
+    "file": "Nimbus.VPN-1.4.2.exe",
+    "notes": "• В списке снова все серверы — ноды через Cloudflare убраны из подписки на сервере\n• Автопереключение на лучший живой сервер"
   }
 }

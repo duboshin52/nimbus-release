@@ -1,11 +1,11 @@
 {
-  "versionCode": 144,
-  "versionName": "1.4.4",
-  "notes": "• Долгое нажатие на плитку быстрых настроек теперь открывает главный экран Nimbus вместо системного «О приложении»\n• При запуске из плитки сбрасывается открытая ранее страница настроек",
+  "versionCode": 150,
+  "versionName": "1.5.0",
+  "notes": "• Профиль «Авто» для подписок xvpn2: один пункт вместо списка серверов, путь выбирается сам — мосты, CDN, напрямую\n• Своё ядро Nimbus (Xray 26.10.31): замечает, когда провайдер пропускает пинг, но рвёт трафик, и за 15–20 с уходит на рабочий путь\n• После обновления потяните список подписок вниз — придёт профиль «Авто»",
   "apks": {
-    "arm64-v8a": "Nimbus-VPN-1.4.4-arm64-v8a.apk",
-    "armeabi-v7a": "Nimbus-VPN-1.4.4-armeabi-v7a.apk",
-    "universal": "Nimbus-VPN-1.4.4-universal.apk"
+    "arm64-v8a": "Nimbus-VPN-1.5.0-arm64-v8a.apk",
+    "armeabi-v7a": "Nimbus-VPN-1.5.0-armeabi-v7a.apk",
+    "universal": "Nimbus-VPN-1.5.0-universal.apk"
   },
   "windows": {
     "versionName": "1.4.2",

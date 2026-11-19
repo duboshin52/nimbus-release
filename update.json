@@ -1,15 +1,16 @@
 {
-  "versionCode": 151,
-  "versionName": "1.5.1",
-  "notes": "• «Авто» проверяет путь и на загрузку, и на отдачу: если провайдер замораживает исходящий трафик, переключается на рабочий путь\n• Профиль «Авто» для подписок xvpn2 — путь выбирается сам: мосты, CDN, напрямую",
+  "versionCode": 160,
+  "versionName": "1.6.0",
+  "notes": "• TrustTunnel: новый протокол — ссылки tt://, QR-код и ручное добавление\n• Свои группы серверов: создавайте группы и переносите в них серверы",
   "apks": {
-    "arm64-v8a": "Nimbus-VPN-1.5.1-arm64-v8a.apk",
-    "armeabi-v7a": "Nimbus-VPN-1.5.1-armeabi-v7a.apk",
-    "universal": "Nimbus-VPN-1.5.1-universal.apk"
+    "arm64-v8a": "Nimbus-VPN-1.6.0-arm64-v8a.apk",
+    "armeabi-v7a": "Nimbus-VPN-1.6.0-armeabi-v7a.apk",
+    "x86": "Nimbus-VPN-1.6.0-x86.apk",
+    "x86_64": "Nimbus-VPN-1.6.0-x86_64.apk"
   },
   "windows": {
-    "versionName": "1.4.2",
-    "file": "Nimbus.VPN-1.4.2.exe",
-    "notes": "• В списке снова все серверы — ноды через Cloudflare убраны из подписки на сервере\n• Автопереключение на лучший живой сервер"
+    "versionName": "1.6.0",
+    "file": "Nimbus.VPN-1.6.0.exe",
+    "notes": "• TrustTunnel: новый протокол — ссылки tt://, QR-код и ручное добавление\n• Свои группы серверов: создавайте группы и переносите в них серверы"
   }
 }
